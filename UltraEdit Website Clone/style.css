@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.navbar img{
+    height: 60px;
+    width: 190px;
+}
+header ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+header ul li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.btn-buy{
+    padding: 10px 28px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+.container{
+    display: grid;
+   width: 80vw;
+    margin: 30px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+}
+.box{
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 200px;
+    gap: 30px;
+    text-align: center;
+    overflow-wrap: anywhere;
+    padding: 20px 20px;
+   margin: 20px 10px;
+   border-radius: 15px;
+   box-shadow: 0px 0px 2px  black;
+}
+h3{
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.sm{
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+main button{
+    padding: 5px 15px;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+.vrsmall{
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 10px;
+}
+.content{
+    text-align: center;
+    padding: 40px;
+}
+.content h1{
+    font-size: 3em;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.content h3{
+    font-size: 1.7em;
+   font-weight: 400;
+}
+.dwnbtn{
+    background-color: #00b6d1;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 7px;
+    border: none;
+}
+.dwnbtn:hover{
+    background-color: #019eb6;
+}
+main button:hover{
+    background-color: #358b35;
+}
+.version{
+    display: flex;
+    place-content: center;
+    background: url('u.png') no-repeat 430px ;
+    background-size: contain;
+    height: 60px;
+}
+.version h3{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 12px 5px 0px 5px;
+}
+.version small{
+    padding: 20px 5px 0px 5px;
+}
+.infopart{
+    width: 100vw;
+    height: 750px;
+    background-color: #222222;
+    color: white;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: center;
+    padding: 160px 150px 70px;
+}
+.info-ue{
+    margin: 0 auto 0 90px;
+}
+.info-ue h3{
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.info-ue p{
+    font-size: 20px;
+}
+.sign_up_div{
+    width: 25vw;
+    height: 270px;
+    margin-top:-90px ;
+    margin-left: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 25px gray;
+}
+.sign_up_div h3{
+    color: #00b6d1;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 15px auto;
+}
+.sign_up_div form *{
+    display: block;
+    margin-bottom: 10px;
+}
+.sign_up_div form input {
+    margin:20px auto;
+    padding: 5px 15px;
+}
+.sign_up_div form input[placeholder]{
+    border-radius: 5px;
+    padding: 15px 60px;
+    font-size: 1em;
+    border : 2px solid #ddd;
+}
+.sign_up_div .btn_sign_up{
+    background-color: #00b6d1;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px 120px;
+    border: none;
+    border-radius: 5px;
+}
+.msg{
+    text-align: start;
+    padding: 0px 190px;
+}
+.msg h3{
+    font-size: 1.6em;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.msg p{
+    padding-top: 10px;
+    font-size: 19px;
+}
+.msg a{
+    text-decoration: none;
+    color: #00b6d1;
+}
+.footer-items{
+    display: flex;
+    align-content: center;
+    padding-right: 20px;
+    width: 80vw;
+    margin: 60px auto;
+}
+.b ul li{
+    list-style: none;
+    line-height: 26px;
+    font-size: 15px;
+}
+.b h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+.b{
+    padding: 0 30px;
+}
+.b .txt{
+    padding: 10px 30px;
+    margin: 10px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+.b .btn{
+    border-radius: 10px;
+    padding: 10px 75px;
+    background-color: #10c4e0;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.btn_sign_up:hover , .btn:hover{
+    background-color: #019eb6;
+}
