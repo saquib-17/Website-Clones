@@ -7,6 +7,7 @@ This repository contains clones of popular websites created using **HTML, CSS, a
 - Netflix Clone
 - UltraEdit Clone
 - Flipcart Clone
+- Google Home Page Clone
 
 Each project focuses on replicating real-world UI/UX, layouts, and responsiveness.
 
